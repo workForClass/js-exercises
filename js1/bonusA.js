@@ -12,6 +12,18 @@ Accomplish the above task with hardcoded dummy variables for the ‘guess’ is 
         - If the right guess variable is given, the message: "Congratulations! You guessed the number!"
         - If the wrong guess variable is given, the message: "Sorry, better luck next time." */
 
+const n = Math.floor(Math.random() * 10) + 1;
+const rightGuess = n;
+const wrongGuess = n + 1;
+
+let guess = rightGuess;
+// let guess=wrongGuess;
+
+if (guess == n) {
+  console.log("Congratulations - your first guess was right!");
+} else if (guess !== n) {
+  console.log("Game Over!");
+}
 
 
 
@@ -24,9 +36,6 @@ There are two ways you may choose to accomplish this, and both will require some
 
 Option 1: 
     - Run in the browser console environment, use prompt() and Document.write to gain user input and output to the browser. */
-
-
-    // Note Document.write & prompt() are browser based
 
 // OPTION 1: BROWSER BASED
 /* let guess = parseInt(
