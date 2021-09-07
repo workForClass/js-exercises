@@ -9,6 +9,6 @@ if (a > b) {
 }
 
 // Try the above using a ternary operator
-a > b ? console.log("a is greater") : console.log("b is greater");
+// a > b ? console.log("a is greater") : console.log("b is greater");
 
 

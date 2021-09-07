@@ -1,4 +1,4 @@
-/* 3) Use an if statement to check if a number entered is less than 20.
+/* 3) Use an if statement to check if a is less than 20.
 Inputs
 Text: number to check
 Outputs 
