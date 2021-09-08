@@ -1,0 +1,1 @@
+// 3) Write a function takes a number as a parameter and checks if it is divisible by 5. (use a Function expression)

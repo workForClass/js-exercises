@@ -1,0 +1,1 @@
+// 7) Use a for loop to loop through all numbers from 50 to 1 backwards and display their sum 
